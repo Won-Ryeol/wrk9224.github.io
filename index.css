@@ -1,0 +1,24 @@
+body{
+    background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=defocused-image-of-lights-255379.jpg&fm=jpg);
+    background-size: cover;
+    margin : 100px;
+    margin-left : 200px;
+    border-width: 2px;
+    border-style: double;
+    border-color: rgb(224, 224, 224);
+    padding-left: 50px;
+    padding-top: 20px;
+}
+#name_eng{
+    font-size: larger;
+    font-style: bold;
+}
+ul{
+    list-style-type : circle;
+}      
+.name{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.contact{
+    margin-top : 100px;
+}
