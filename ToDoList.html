@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="ToDoList.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <a href="ToDoList.html"><h1 id="todolistHeader">To do List</h1></a>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <hr>
+                    <p class="enter">Write what to do and Press enter</p>
+                    <p class="inputarea">
+                        <input type="text" id="inputText" placeholder="what to do"/>
+                        <ul id="todolist"></ul>
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <hr>
+                    <p class="enter">Done</p>
+                    <ul id="donelist"></ul>
+                </div>
+            </div>
+        </div>
+        <script src="ToDoList.js"></script>
+    </body>
+</html>
